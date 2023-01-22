@@ -1,5 +1,5 @@
 #Tyson Ogilvie
-# practice machine learning model
+#practice machine learning model
 
 
 import numpy as np
