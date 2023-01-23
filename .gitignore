@@ -25,3 +25,4 @@ yarn-debug.log*
 yarn-error.log*
 api/FIght_Predictor_ML.py
 geckodriver.log
+Database
