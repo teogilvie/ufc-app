@@ -1,9 +1,6 @@
 # Tyson O'Gilvie
 # UFC site scraper
 
-#possibly start scraping from ufcstats.com instead
-
-
 from optparse import Option
 from ssl import Options
 from turtle import title
@@ -16,7 +13,9 @@ from selenium.webdriver.common.by import By
 
 def fighter_stat_func (Firstname, Lastname):
 
-    driverloc = "/Users/teogi/Documents/UFC_Application/geckodriver"
+    #location of web driver, adjust accordingly
+    
+    driverloc = "/Users/teogi/Documents/UFC_Application/geckodriver" 
 
     first_name_athlete = f"{Firstname}"
     last_name_athlete = f"{Lastname}"
